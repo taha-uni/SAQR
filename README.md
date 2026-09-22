@@ -12,6 +12,7 @@ Sarah alsaleh
 The sumo robot employs an integrated strategy combining sensor usage with motion control to achieve maximum energy efficiency during the match. This strategy is based on a fundamental principle: no component of the robot—whether drive wheels or offensive mechanisms—moves unless in response to actual sensory data, rather than moving automatically or randomly.
 
 ## Hardware
+- AV3 Robot.
 - Sensors Used and Their Roles
 Sensor	Function	Action Taken Based on Reading
 Color Sensor	Detects the arena boundaries by identifying the color white	Immediately changes direction to move away from the edge and prevent the robot from leaving the arena
@@ -25,8 +26,15 @@ This integration of sensors and the decision-making mechanism forms a comprehens
 
 - Confrontation and Clash Management Strategies :
 The confrontation strategy relies on combining two offensive tools—the projectile launcher and the shovel—with two sensing systems—a distance sensor and a color sensor—allowing the robot to act flexibly based on the match situation rather than adhering to a single, fixed behavior.
+- Tools of Confrontation:
+  Shooter Motor : A long-range attack, activated only upon detecting the opponent and in accordance with the program's logic—without random or continuous operation.
+  Shovel : Pushing the opposing robot off its path during direct contact, and directing the force of the impact toward a specific point rather than dispersing it across the robot's components.
 
-## Software:<img width="960" height="1280" alt="code" src="https://github.com/user-attachments/assets/e2b15664-65f8-4dc1-82b4-2a09d60ad13d" />
+  - Managing Trauma During Confrontation:
+   Upon colliding with an opponent, the robot experiences a sudden impact force. The front-mounted shovel is designed to serve as the primary contact point, ensuring the collision is controlled and predictable rather than occurring haphazardly across various parts of the chassis. Following the impact, the sensors continue to transmit data, allowing the robot to adjust its heading instead of stalling in an ineffective position.
+
+-Strategic flexibility :
+To introduce an element of unpredictability to the robot's performance, the program randomly selects between two different movement paths during each execution cycle: one path combining a short axial rotation, sensory scanning, and firing mechanism activation; and another involving a 180-degree turn followed by a longer straight-line advance. This random switching between paths prevents the opposing robot from anticipating the robot's movements, adding a strategic dimension beyond mere immediate sensory response.
 
 
 
