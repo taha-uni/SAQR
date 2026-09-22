@@ -11,7 +11,7 @@ Leenh Baroud - Sarah alsaleh
 The sumo robot employs an integrated strategy combining sensor usage with motion control to achieve maximum energy efficiency during the match. This strategy is based on a fundamental principle: no component of the robot—whether drive wheels or offensive mechanisms—moves unless in response to actual sensory data, rather than moving automatically or randomly.
 
 ## Hardware
-- AV3 Robot.
+- lego mindstorms EV3 Robot.
 - Sensors Used and Their Roles
 Sensor	Function	Action Taken Based on Reading
 Color Sensor	Detects the arena boundaries by identifying the color white	Immediately changes direction to move away from the edge and prevent the robot from leaving the arena
@@ -36,5 +36,6 @@ The confrontation strategy relies on combining two offensive tools—the project
 To introduce an element of unpredictability to the robot's performance, the program randomly selects between two different movement paths during each execution cycle: one path combining a short axial rotation, sensory scanning, and firing mechanism activation; and another involving a 180-degree turn followed by a longer straight-line advance. This random switching between paths prevents the opposing robot from anticipating the robot's movements, adding a strategic dimension beyond mere immediate sensory response.
 
 
+[مسابقة السومو.pdf](https://github.com/user-attachments/files/32509520/default.pdf)
 
 
