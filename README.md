@@ -1,7 +1,7 @@
 # WRO 2026 Future Engineers
 ## SAQR Team
 Team ID: 6327
-# Junior
+## Junior
 # Dharan / unischools 
 
 ## Team Members :
